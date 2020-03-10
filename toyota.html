@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Toyota Form.</title>
+    <link rel="stylesheet" href="toyota.css">
+</head>
+<body>
+    
+    <form name="myform" class="form-groupe" action="">
+        <div>
+            <fieldset style="height: 8em;" id="middiv">
+                <legend>Customer Information</legend>
+                <label for="">Customer Id</label> <input id="same"  type="number" placeholder="123-45-6789"> <br><br>
+               <label for=""> Name</label> <input id="same1" type="text" placeholder="Tom Thumb"><br><br>
+               <label for="">Town</label> <input id="same" type="text" placeholder="CA">
+                <input style="margin-left: auto;" type="checkbox"> Retail Customer
+
+
+            </fieldset>
+        </div>
+
+        <div>
+            <fieldset style="height: 8em;">
+                <legend  >shiping</legend>
+                <input type="radio" name="rating"> UPS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="rating"> Fed Ex Ground <br> <br>
+                <input type="radio" name="rating"> US Postal Air &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="rating"> Fed EX Air
+
+
+
+            </fieldset>
+        </div>
+
+        <div>
+            <fieldset style="height: 12em;" id="middiv">
+                <legend>Part Ordered</legend>
+                <label for="">Part Number</label> <input id="same1" type="number" placeholder="10152"> <br><br>
+                <label for="">Description</label> <input id="same1" type="text" placeholder="Oil Filter"><br><br>
+                <label for="">Price Per Part </label> <input style="width: 20%; text-align: right;" type="text" placeholder="$7.51">
+                <label for=""> Quantity</label> <input style=" margin-left: 70px; width: 5%; text-align: right;" type="text" placeholder="2"> <br><br>
+                &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox">
+
+            </fieldset>
+        </div>
+
+        <div id="last">
+            <fieldset style="height: 12em;" >
+                <legend>Output</legend>
+                <label for="">Cost</label> <input type="text"> <br><br>
+                <label for="">SalesTax</label> <input type="text"> <br><br>
+                <label  for="">Shiping & Handling</label> <input type="text"> <br><br>
+                <label for="">Total</label> <input type="text">
+
+            </fieldset>
+        </div>
+        <div style="background-color: darkgray;">
+            <input style="text-align: center; width: 15%; padding: 5px; background-color:lightslategrey; margin-right: 50px;" type="button" value="Compute">
+            <input style=" text-align: center; width: 15%; padding: 5px; background-color:lightslategrey;" type="button" value="New Order">
+
+        </div>
+
+        <div style=" text-align: right; background-color: darkgray;"> 
+            <input style=" text-align: center; margin-right: 30px; width: 15%; padding: 5px; background-color:lightslategrey;" type="button" value="Exit">
+        </div>
+
+
+    </form>
+
+</body>
+</html>
